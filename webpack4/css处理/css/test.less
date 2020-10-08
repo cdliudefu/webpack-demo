@@ -1,0 +1,17 @@
+@color2:blue;
+div{
+    // 添加兼容性前缀
+    border-radius: 10px; 
+    color:@color2;
+}
+
+// 新语法
+:root {
+  --mainColor: rgba(18, 52, 86, 0.47059);
+}
+
+html{
+    background-color: var(--mainColor);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+    word-wrap: break-word;
+}

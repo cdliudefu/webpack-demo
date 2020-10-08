@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    color: blue;
+  }
+  :root {
+    --mainColor: rgba(18, 52, 86, 0.47059);
+  }
+  html {
+    background: var(--mainColor);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+    word-wrap: break-word;
+  }
+  
+  
